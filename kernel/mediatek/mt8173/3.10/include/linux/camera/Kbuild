@@ -1,0 +1,4 @@
+header-y += kd_camera_feature_id.h
+header-y += kd_camera_feature.h
+header-y += kd_camera_feature_enum.h
+header-y += mt8173/

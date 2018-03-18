@@ -1,0 +1,4 @@
+
+config MTK_EPL6804
+	bool "EPL6804 for MediaTek package"
+	default n

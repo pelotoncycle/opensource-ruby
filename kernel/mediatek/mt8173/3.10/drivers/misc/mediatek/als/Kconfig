@@ -1,0 +1,20 @@
+
+config CUSTOM_KERNEL_ALSPS
+	bool "CUSTOM_KERNEL_ALSPS"
+	help
+	  ALSPS sensor driverto detect ambint light and the object is close
+	  or far awary from device
+config CUSTOM_KERNEL_ALS
+	bool "CUSTOM_KERNEL_ALS"
+	help
+	  ALS sensor driverto detect ambint light and the object is close
+	  or far awary from device
+config MTK_AUTO_DETECT_ALSPS
+	bool "MTK_AUTO_DETECT_ALSPS"
+	help
+	  This feature Option is used for projects which using more than one
+	  ALSPS sensors, more than one ALSPS drivers can be builded in to
+	  project and be auto detected by setting this option to yes
+
+source "drivers/misc/mediatek/als/EPL6804/Kconfig"
+

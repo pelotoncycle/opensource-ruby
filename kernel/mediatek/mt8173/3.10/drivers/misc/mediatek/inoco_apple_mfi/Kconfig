@@ -1,0 +1,11 @@
+config INOCO_APPLE_MFI
+	tristate "Innocomm Apple MFi driver"
+	depends on I2C
+	default n
+	---help---
+	  Innocomm Apple MFI driver based on I2C.
+	  This is a driver to provides I2C access to Apple MFi devices 
+
+	  To compile this driver as a module, choose m here. The module will
+	  be called inoco_apple_mfi.
+	  Say N if unsure.

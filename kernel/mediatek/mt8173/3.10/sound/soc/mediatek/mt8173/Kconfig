@@ -1,0 +1,12 @@
+
+choice
+	prompt "MT8173 ASOC platform"
+
+config SND_SOC_MT8173_GENERIC
+	bool "MT8173 GENERIC"
+	help
+	  Say Y if you want to use the default
+	  Mediatek SoC Audio interfaces for MT8173.
+	  It is the generic solution.
+
+endchoice
